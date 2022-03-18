@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Splash_activity"
+    android:background="@drawable/splash">
+    <ImageView
+        android:id="@+id/SPLASH_FISH"
+        android:layout_width="287dp"
+        android:layout_height="295dp"
+        android:layout_below="@+id/TEXTVIEW4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-27dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:src="@drawable/splash_icon" />
+
+    <TextView
+        android:id="@+id/TEXTVIEW4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0sp"
+        android:layout_marginLeft="0sp"
+        android:layout_marginTop="0sp"
+        android:text="The Swiming Fish"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="179dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="338dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="START"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:text="START" />
+
+    <TextView
+        android:id="@+id/eee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SPLASH_FISH"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="134dp"
+        android:text="Created by:"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/eee"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="15dp"
+        android:text="MIND TWISTERS"
+        android:scaleType="fitCenter"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

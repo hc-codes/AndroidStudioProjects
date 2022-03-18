@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "365667686037",
+    "firebase_url": "https://ecommerce-431de.firebaseio.com",
+    "project_id": "ecommerce-431de",
+    "storage_bucket": "ecommerce-431de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365667686037:android:ec91d34d4d9d7df8",
+        "android_client_info": {
+          "package_name": "com.inducesmile.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365667686037-ta3omhs279pdtcqctpcl20uhqlh8qinq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inducesmile.ecommerce",
+            "certificate_hash": "cc9115d03dbeeed1f8fbb7c396146ade31fbc97e"
+          }
+        },
+        {
+          "client_id": "365667686037-oa32n9pq7n2rjil527pls1ksuat32f7s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGRJ1qNJ5c7h4MyHDTk_dKma9MvBIrOkw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365667686037-oa32n9pq7n2rjil527pls1ksuat32f7s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

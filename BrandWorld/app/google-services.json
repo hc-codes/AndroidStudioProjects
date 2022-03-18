@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "397003399745",
+    "firebase_url": "https://brand-world-24080.firebaseio.com",
+    "project_id": "brand-world-24080",
+    "storage_bucket": "brand-world-24080.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397003399745:android:aec9af376d485727",
+        "android_client_info": {
+          "package_name": "dragoz.brandworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397003399745-ocdkf9uh6phmlalf9hsgl4bpmh48nquv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcY5m6HTE2fnRueWzWnK_O07lEE7GzJiE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

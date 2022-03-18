@@ -1,0 +1,1 @@
+"E:Program Files\\txgameassistant\appmarket\AppMarket.exe" -startpkg "com.tencent.ig" -from DesktopLink

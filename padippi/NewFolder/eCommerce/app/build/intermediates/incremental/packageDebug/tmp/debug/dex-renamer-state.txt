@@ -1,0 +1,4 @@
+#Mon Jul 08 20:24:47 IST 2019
+base.0=C\:\\Users\\Chemmazhy\\Desktop\\NewFolder\\eCommerce\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

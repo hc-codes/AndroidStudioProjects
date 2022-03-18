@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp"
+    app:srcCompat="@android:drawable/alert_dark_frame">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/PRODUCT_NAME"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:id="@+id/PRODUCT_IMAGE"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/a"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/PRODUCT_NAME" />
+        <TextView
+            android:id="@+id/PRODUCT_DESCRIPTION"
+            android:layout_below="@+id/PRODUCT_IMAGE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

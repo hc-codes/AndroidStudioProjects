@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp"
+    app:srcCompat="@android:drawable/alert_dark_frame">
+    <RelativeLayout
+        android:id="@+id/RELATIVE_LAYOUT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/PRODUCT_NAME"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nike Airmax 27c"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:id="@+id/PRODUCT_IMAGE"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/a"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/PRODUCT_NAME" />
+        <TextView
+            android:id="@+id/PRODUCT_DESCRIPTION"
+            android:layout_below="@+id/PRODUCT_IMAGE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Size 41-45
+   price 1849/-
+    Including Shipping"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        app:cardElevation="15dp"
+        app:srcCompat="@android:drawable/alert_dark_frame">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/PRODUCT_NAME1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Adidas tubular shadow"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:id="@+id/PRODUCT_IMAGE1"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/b"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/PRODUCT_NAME1" />
+        <TextView
+            android:id="@+id/PRODUCT_DESCRIPTION1"
+            android:layout_below="@+id/PRODUCT_IMAGE1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Size 41-45
+Price 1750/-
+Including Shipping"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        app:cardElevation="15dp"
+        app:srcCompat="@android:drawable/alert_dark_frame">>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/PRODUCT_NAME2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nike Airforce"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:id="@+id/PRODUCT_IMAGE2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/c"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/PRODUCT_NAME2" />
+        <TextView
+            android:id="@+id/PRODUCT_DESCRIPTION2"
+            android:layout_below="@+id/PRODUCT_IMAGE2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Size 41-45
+price 1350/-
+Including Shipping"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+</ScrollView>

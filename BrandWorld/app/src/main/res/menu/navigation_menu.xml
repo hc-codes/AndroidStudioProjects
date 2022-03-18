@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/HOME"
+            android:title="Home"
+            android:icon="@drawable/home">
+        </item>
+        <item android:id="@+id/CLOTH"
+            android:title="Clothing"
+            android:icon="@drawable/cloth">
+        </item>
+        <item android:id="@+id/FOOT"
+            android:title="Footwear"
+            android:icon="@drawable/footwear">
+        </item>
+        <item android:id="@+id/WATCH"
+            android:title="Watching"
+            android:icon="@drawable/watches">
+        </item>
+        <item android:id="@+id/WALLET"
+            android:title="Wallet"
+            android:icon="@drawable/wallets">
+        </item>
+    </group>
+<item android:title="Communicate">
+    <menu>
+        <item android:id="@+id/SHARE"
+            android:title="Share"
+            android:icon="@drawable/ic_share_black_24dp"/>
+        <item android:icon="@drawable/ic_send_black_24dp"
+            android:title="Send"
+            android:id="@+id/SEND"/>
+    </menu>
+</item>
+</menu>

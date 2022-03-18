@@ -1,0 +1,15 @@
+.project
+.settings
+.classpath
+bin
+gen
+*.cfg
+local.properties
+project.properties
+*~
+logcat
+build/
+.gradle
+.idea
+*.iml
+*.keystore

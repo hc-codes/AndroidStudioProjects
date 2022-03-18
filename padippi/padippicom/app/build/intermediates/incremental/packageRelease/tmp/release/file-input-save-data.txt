@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Jul 21 20:10:37 IST 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Chemmazhy\\Desktop\\padippicom\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+0.path=classes.dex
+0.set=DEX
+count=1

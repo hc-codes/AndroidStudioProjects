@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <include
+        layout="@layout/app_bar_nav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_nav"
+        app:menu="@menu/activity_nav_drawer" />
+
+
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        tools:context=".MainActivity"  >
+
+
+        <ImageButton
+            android:id="@+id/img1"
+            android:layout_width="224dp"
+            android:layout_height="248dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ktu" />
+
+
+
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/imageButton2"-->
+        <!--android:layout_width="252dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginStart="70dp"-->
+        <!--android:layout_marginLeft="70dp"-->
+        <!--android:layout_marginTop="42dp"-->
+        <!--android:layout_marginEnd="89dp"-->
+        <!--android:layout_marginRight="89dp"-->
+        <!--app:srcCompat="@drawable/ktu" />-->
+        <!--</de.hdodenhof.circleimageview.CircleImageView>-->
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+</android.support.v4.widget.DrawerLayout>
